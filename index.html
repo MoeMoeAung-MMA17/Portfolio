@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+<div class="main-container" id="main-container">
+  <nav class="navbar navbar-expand-lg position-fixed w-100  bg-white d-block d-lg-none shadow-sm border-bottom" style="z-index: 2000;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="text-primary h3">Moe</span>
+      </a>
+      <button class="nav-toggler icon-toggler border-0 bg-white">
+        <i class="bi bi-list icon text-primary"></i>
+      </button>
+    </div>
+  </nav>
+<!--  sidebar start-->
+  <div class="sidebar d-flex flex-column justify-content-between justify-content-md-center py-4" id="sidebar">
+<!--    <div class="logo mb-5">-->
+<!--      <a href="#" class="text-decoration-none text-white"><img src="public/image/jung1.jfif" class="d-block mx-auto shadow-lg" alt=""></a>-->
+<!--    </div>-->
+    <ul class="list-group">
+      <div class="text-end">
+        <button class="nav-toggler icon-toggler border-0 bg-white close-btn d-block d-md-none" style="margin-left: auto;">
+          <i class="bi bi-x icon text-primary"></i>
+        </button>
+      </div>
+      <div class="logo mb-5">
+        <a href="#" class="navbar-brand text-decoration-none text-white">
+          <img src="public/image/profile_photo2.jpg" class="d-block mx-auto shadow-lg" alt="">
+        </a>
+      </div>
+      <li class="list-group-item list">
+        <a  href="#home" class="sidebar-link text-dark  text-decoration-none d-block mb-2">
+          <i class="fs-5 bi bi-house-door"></i><span class="ms-3">Home</span>
+        </a>
+      </li>
+      <li class="list-group-item list">
+        <a  href="#about" class="sidebar-link text-dark  text-decoration-none  d-block mb-2">
+          <i class="fs-5 bi bi-person-square"></i><span class="ms-3">About</span>
+        </a>
+      </li>
+      <li class="list-group-item list">
+        <a  href="#services" class="sidebar-link text-dark  text-decoration-none  d-block mb-2">
+          <i class="fs-5 bi bi-list-ul"></i><span class="ms-3">Services</span>
+        </a>
+      </li>
+      <li class="list-group-item list">
+        <a  href="#portfolio" class="sidebar-link text-dark  text-decoration-none  d-block mb-2">
+          <i class="fs-5 bi bi-bag-plus-fill"></i><span class="ms-3">Portfolio</span>
+        </a>
+      </li>
+      <li class="list-group-item list">
+        <a  href="#contact" class="sidebar-link text-dark  text-decoration-none  d-block mb-2">
+          <i class="fs-5 bi bi-chat-right-text"></i><span class="ms-3">Contact</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+<!--  sidebar end-->
+<!--  content start-->
+  <div class="main-content" id="main-content">
+    <div class="content" id="content">
+
+      <div  class="py-5 py-lg-0"></div>
+      <section class="home" id="home">
+        <div class="container-fluid">
+          <div class="row min-vh-100 justify-content-evenly align-items-center p-2 p-md-5 p-lg-0">
+            <div class="col-12 col-lg-6 to-down">
+              <div class="home-info mb-5 mb-lg-0" id="home-info">
+                <h3 class="mb-2">Hello,<span class="fw-bold"> I am <span class="text-primary element"></span></span></h3>
+                <p class="mb-4 text-black-50">
+                  A student who like to study Mobile and Web Development.
+                </p>
+                <a href="#" class="btn btn-primary btn-rounded-pill">Hire Me</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 home-img to-down">
+              <img src="./image/photo.jpg" class="w-75 shadow" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container-fluid">
+          <div class="row min-vh-100  d-flex justify-content-evenly align-content-center p-4 py-lg-0 mt-5 mt-lg-0">
+            <div class="col-12 text-center mb-5 to-down">
+              <h4 class="text-uppercase fw-bold">About Me</h4>
+            </div>
+           <div id="about-content">
+             <div class="row justify-content-evenly align-items-center">
+               <div class="col-12 col-lg-6">
+                 <div class="row text-center justify-content-center mb-4 mb-lg-0">
+                   <div class="col-6 col-md-5 col-lg-6">
+                     <div class="card about-card mb-4 border-0 shadow-sm to-down">
+                       <div class="card-body m-0 m-md-2">
+                         <div class="text-center">
+                           <h2 class="fw-bold counter1">1+</h2>
+                           <p class="mb-0">Year Of Experience</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-6 col-md-5  col-lg-6">
+                     <div class="card about-card mb-4 border-0 shadow-sm to-down">
+                       <div class="card-body m-0 m-md-2">
+                         <div class="text-center">
+                           <h2 class="fw-bold counter2">15+</h2>
+                           <p class="mb-0">Finished Projects</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-6 col-md-5 col-lg-6">
+                     <div class="card about-card mb-4 border-0 shadow-sm to-down">
+                       <div class="card-body m-0 m-md-2">
+                         <div class="text-center">
+                           <h2 class="fw-bold counter3">10+</h2>
+                           <p class="mb-0">Happy Customers</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-6 col-md-5 col-lg-6">
+                     <div class="card about-card mb-4 border-0 shadow-sm to-down">
+                       <div class="card-body m-0 m-md-2">
+                         <div class="text-center">
+                           <h2 class="fw-bold counter4">10+</h2>
+                           <p class="mb-0">Awards Won</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+
+                 </div>
+               </div>
+
+               <div class="col-12 col-lg-5">
+                 <div class="about-content mb-4 mb-lg-0 pt-4 pt-lg-0 to-down">
+                   <p class="fw-bold">My Name is Moe Moe Aung</p>
+                   <p class="mb-4 text-black-50">
+                    I am studied at Computer University  from 2016 to 2020. A  specialized major is Computer Science.After that, I attended MMS One Stop IT Solution for frontend and backend development. I like to make responsive website.
+                   </p>
+                   <a href="#" class="btn btn-primary me-2">Contact Me</a>
+                   <!--                  <a href="#" class="btn btn-outline-primary">More Info</a>-->
+                 </div>
+               </div>
+
+
+             </div>
+             <div class="row justify-content-evenly">
+               <div class="col-12 col-md-4 col-lg-6">
+                 <div class="">
+                   <div class="to-right">
+                     <div class="d-flex justify-content-between">
+                       <label for="" class="mb-2">Web Design</label>
+                       <label class="" for="">75%</label>
+                     </div>
+                     <div class="progress mb-3 ">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated web" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                   <div class="to-right">
+                     <div class="d-flex justify-content-between">
+                       <label for="" class="mb-2">Web Development</label>
+                       <label for="">65%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                   <div class="to-right">
+                     <div class="d-flex justify-content-between">
+                       <label for="" class="mb-2">UI & UX</label>
+                       <label for="">60%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75 counter" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                   <div class="to-right">
+                     <div class="d-flex justify-content-between">
+                       <label for="" class="mb-2">PHP & Larvel</label>
+                       <label for="">60%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-12 col-md-4 col-lg-5">
+                 <div class="">
+                   <div class="to-left">
+                     <div class="d-flex justify-content-between to-left">
+                       <label for="" class="mb-2">Html & Css</label>
+                       <label for="">85%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                   <div class="to-left">
+                     <div class="d-flex justify-content-between to-left">
+                       <label for="" class="mb-2">Sass</label>
+                       <label for="">75%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                   <div class="to-left">
+                     <div class="d-flex justify-content-between to-left">
+                       <label for="" class="mb-2">Javascript</label>
+                       <label for="">65%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                   <div class="to-left">
+                     <div class="d-flex justify-content-between to-left">
+                       <label for="" class="mb-2">Bootstrap</label>
+                       <label for="">80%</label>
+                     </div>
+                     <div class="progress mb-3">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <div class="row min-vh-100 justify-content-center align-content-center">
+            <p class="text-center text-primary mb-2 to-right">My Services</p>
+            <h4 class="text-center fw-bold text-uppercase mb-5 to-right">What I Do</h4>
+            <div class="col-9 col-md-4 col-lg-3">
+              <div class="card service-card mb-5 mb-lg-0 text-center shadow-sm border-0 to-right" id="dark-card">
+                <div class="card-body">
+                  <div class="">
+                    <div class="card-icon my-2 mx-auto">
+                      <i class="fw-bold text-primary bi bi-pc-display-horizontal"></i>
+                    </div>
+                    <h5 class="fw-bold mb-4">Web Design</h5>
+                    <p class="small text-black-50">
+                      Lorem ipsum dolor sit  voluptatum? At aut, eum, obcaecati odit quasi tempora!
+                    </p>
+<!--                    <a href="#" class="text-decoration-none me-3 small">More about info-->
+<!--                      <i class="bi bi-arrow-right"></i>-->
+<!--                    </a>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-9 col-md-4 col-lg-3">
+              <div class="card service-card mb-5 mb-lg-0 center-card text-center shadow-sm border-0 to-right">
+                <div class="card-body">
+                  <div class="">
+                    <div class="card-icon my-2 mx-auto">
+                      <i class="fw-bold text-primary bi bi-gear"></i>
+                    </div>
+                    <h5 class="fw-bold mb-4">Web Design</h5>
+                    <p class="small text-black-50">
+                      Lorem ipsum dolor sit  voluptatum? At aut, eum, obcaecati odit quasi tempora!
+                    </p>
+<!--                    <a href="#" class="text-decoration-none me-3 small">More about info-->
+<!--                      <i class="bi bi-arrow-right"></i>-->
+<!--                    </a>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-9 col-md-4 col-lg-3">
+              <div class="card service-card mb-5 mb-lg-0 text-center shadow-sm border-0 to-right">
+                <div class="card-body">
+                  <div class="">
+                    <div class="card-icon my-2 mx-auto">
+                      <i class="fw-bold text-primary bi bi-bar-chart-line"></i>
+                    </div>
+                    <h5 class="fw-bold mb-4">Web Design</h5>
+                    <p class="small text-black-50">
+                      Lorem ipsum dolor sit  voluptatum? At aut, eum, obcaecati odit quasi tempora!
+                    </p>
+                    <!--                    <a href="#" class="text-decoration-none me-3 small">More about info-->
+                    <!--                      <i class="bi bi-arrow-right"></i>-->
+                    <!--                    </a>-->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="row min-vh-100  justify-content-center align-content-start my-5">
+            <div class="col-12">
+              <div class="mb-5 mb-lg-3 px-lg-3">
+                <h5 href="#" class="mb-0 text-uppercase text-center text-lg-start wow animate__fadeIn">Portfolio</h5>
+              </div>
+                <ul class="nav nav-pills d-flex align-items-start justify-content-center mb-3 mb-lg-4 px-lg-3" id="pills-tab" role="tablist">
+                  <h3 class="fw-bold d-none d-lg-block  mb-0 me-auto to-right">Latest Projects</h3>
+                    <li class="nav-item  to-down" role="presentation">
+                    <button class="nav-link text-uppercase active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item  to-down" role="presentation">
+                      <button class="nav-link text-uppercase" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Web App</button>
+                    </li>
+                    <li class="nav-item  to-down" role="presentation">
+                      <button class="nav-link text-uppercase" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Mockup</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="container">
+                      <div class="row justify-content-center mb-5">
+                        <div class="col-10 col-md-10 col-lg-4 to-down">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/swdProject.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn venobox" data-maxwidth="800px"  data-gall="myGallery">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+<!--                                <p>-->
+<!--                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos distinctio eaque enim et in laudantium libero mollitia nam nihil obcaecati, quaerat quasi quod saepe sequi sint, soluta sunt suscipit!-->
+<!--                                </p>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>SWD Project</h4>
+                                <a class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4 to-down">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/foodie.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Foodie</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4 to-down">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/windu.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Windu</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4 to-down">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/windu.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4 class="">Windu</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4 to-down">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/card.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Windu</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4 to-down">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/windu.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Windu</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="container">
+                      <div class="row justify-content-center mb-5">
+                        <div class="col-10 col-md-10 col-lg-4">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/swdProject.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>SWD Project</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/foodie.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Foodie</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/windu.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Windu</h4>
+                                <a  class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="container">
+                      <div class="row justify-content-center mb-5">
+                        <div class="col-10 col-md-10 col-lg-4">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/windu.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4 class="">Windu</h4>
+                                <a href="" class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/card.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Windu</h4>
+                                <a href="" class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-md-10 col-lg-4">
+                          <div class="card border-0 overflow-hidden shadow-lg mb-4">
+                            <figure class="imghvr-shutter-in-out-horiz">
+                              <img src="public/image/windu.png" class="w-100 shadow-lg">
+                              <figcaption>
+<!--                                <div class="row justify-content-between">-->
+<!--                                  <div class="portfolio-btn">-->
+<!--                                    <a href="#" class="inline-block">-->
+<!--                                      <i class="bi bi-search fw-bolder text-white"></i>-->
+<!--                                    </a>-->
+<!--                                  </div>-->
+<!--                                </div>-->
+                              </figcaption>
+                            </figure>
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <h4>Windu</h4>
+                                <a href="#" class="">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                    <div class="row justify-content-center  my-5">
+                      <div class="col-lg-5">
+                        <div class="card border-0 rounded portfolio-img">
+                          <img class="w-100 mb-5 mb-lg-0 shadow-lg" src="public/image/swd.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-1"></div>
+                      <div class="col-lg-5">
+                        <div class="text-center text-lg-start">
+                          <h3>SWD Project</h3>
+                          <p class="text-black-50 my-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, dolore eius et facere illo incidunt magnam, officiis possimus quae quam vel voluptas?
+                          </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="text-lg-center text-sm-start my-4 my-lg-5 to-down">
+                    <p class="text-primary">Contact Us</p>
+                    <h4 class="fw-bold text-uppercase">Get In Touch With Us</h4>
+<!--                    <div class="pb-5 pb-lg-0"></div>-->
+                  </div>
+                </div>
+              </div>
+             <div class="row justify-content-center mb-5">
+                <div class="col-12 col-md-4 col-lg-3">
+                  <div class="row d-flex justify-content-between">
+                    <div class="text-lg-center test-sm-start mb-3 mb-lg-0">
+                      <div>
+                        <i class="contact-icon bi bi-envelope text-primary"></i>
+                      <sapn class="text-dark ms-1">moe603958@gmail.com</sapn>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                  <div class="row d-flex justify-content-between">
+                    <div class="text-lg-center text-sm-start mb-3 mb-lg-0">
+                      <div>
+                        <i class="contact-icon bi bi-telephone text-primary"></i>
+                      <sapn class="text-dark ms-1">09986320570</sapn>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                  <div class="row d-flex justify-content-between">
+                   <div class="text-lg-center text-sm-start mb-3 mb-lg-0">
+                      <div>
+                        <i class="contact-icon bi bi-map text-primary"></i>
+                      <sapn class="text-dark ms-1">Yangon</sapn>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-12 col-md-4 col-lg-3">
+                  <div class="row d-flex justify-content-between">
+                    <div class="text-center mb-3 mb-lg-0">
+                      <div>
+                        <i class="contact-icon bi bi-envelope text-primary mb-3"></i>
+                      </div>
+                      <sapn class="text-dark">moe603958@gmail.com</sapn>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                  <div class="row d-flex justify-content-between">
+                    <div class="text-center mb-3 mb-lg-0">
+                      <div>
+                        <i class="contact-icon bi bi-telephone text-primary  mb-3"></i>
+                      </div>
+                      <sapn class="text-dark">09986320570</sapn>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+              <div class="row justify-content-evenly mb-lg-2">
+                <div class="col-12 col-md-11 col-lg-5 mb-4 to-down">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30557.272592657635!2d96.15320761018972!3d16.793629011426738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec952b6ead79%3A0xc12e80f078502a06!2sMingala%20Taungnyunt%20Township%2C%20Yangon%2C%20Myanmar%20(Burma)!5e0!3m2!1sen!2sau!4v1698905719756!5m2!1sen!2sau" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <!-- <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472824.3950142677!2d95.90013882747603!3d22.204364116008325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb4391e1af046d%3A0xa4c406a91bbab4e8!2sMadaya!5e0!3m2!1sen!2smm!4v1663133019231!5m2!1sen!2smm" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  --> 
+                </div>
+                <div class="col-12 col-md-11 col-lg-6 to-down">
+                  <form action="#" class="mb-3 mb-lg-0 border-0">
+                    <div class="row d-flex justify-content-between">
+                      <div class="col-6">
+                        <div class="form-group mb-3">
+                          <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="form-group mb-3">
+                          <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <input type="text" class="form-control" placeholder="Your Subject">
+                    </div>
+                    <div class="form-group mb-3">
+                      <textarea type="text" class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-primary btn-lg">
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <footer class="d-block align-items-center d-md-flex  justify-content-md-between py-3  border-top">
+                  <div class="to-down mb-3 mb-md-0">
+                    <span class="text-dark mb-0">© 2022 Company, Inc. All rights reserved.</span>
+                  </div>
+                  <div class="d-flex footer-icon to-down">
+                    <a class="text-dark" href="https://www.facebook.com/"><i class="bi bi-facebook mx-2"></i></a>
+                    <a class="text-dark" href="mailto:moe603958@gmail.com"><i class="bi bi-envelope mx-2"></i></a>
+                    <a class="text-dark" href="#"><i class="bi bi-instagram mx-2"></i></a>
+                    <a class="text-dark" href="#"><i class="bi bi-twitter mx-2"></i></a>
+                  </div>
+                </footer>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <a href="#home" class="sc animate__animated animate__fadeIn" style="">
+    <i class="bi bi-chevron-up fw-bolder"></i>
+  </a>
+ <!-- <button class="mode-change animate__animated animate__slideInUp shadow-lg" onclick="changeMode()">-->
+   <!-- <i class="bi bi-moon" id="modeIcon"></i> -->
+ <!-- </button> --> 
+ <!-- <div class="dropdown mode-change" data-bs-theme="light">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+   <i class="bi bi-sun"></i>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+    <li><a class="dropdown-item active" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div> -->
+<!--  content end-->
+
+</div>
+
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
