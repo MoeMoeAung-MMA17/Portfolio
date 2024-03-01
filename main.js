@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("loaderContainer").classList.add("animate__fadeOut");
       setTimeout(() => {
         document.getElementById("loaderContainer").style.display = "none";
-      }, 2000); // Wait for animation to finish before hiding the loader
+      }, 5000); // Wait for animation to finish before hiding the loader
     }
 
     // Function to show the loader
