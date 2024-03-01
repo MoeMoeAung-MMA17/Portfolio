@@ -270,3 +270,25 @@ new VenoBox({
 //     document.getElementById('sidebar').classList.toggle("night-mode");
 //     document.getElementById("modeIcon").classList.toggle("bi-sun");
 // }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to hide the loader
+    function hideLoader() {
+      document.getElementById("loaderContainer").classList.remove("animate__fadeIn");
+      document.getElementById("loaderContainer").classList.add("animate__fadeOut");
+      setTimeout(() => {
+        document.getElementById("loaderContainer").style.display = "none";
+      }, 2000); // Wait for animation to finish before hiding the loader
+    }
+
+    // Function to show the loader
+    function showLoader() {
+      document.getElementById("loaderContainer").style.display = "flex";
+      document.getElementById("loaderContainer").classList.remove("animate__fadeOut");
+      document.getElementById("loaderContainer").classList.add("animate__fadeIn");
+    }
+
+    // Simulate a delay for demonstration purposes
+    setTimeout(hideLoader, 3000); // Hides the loader after 3 seconds (simulating content loading)
+    showLoader(); // Shows the loader initially
+  });
