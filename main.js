@@ -289,6 +289,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Simulate a delay for demonstration purposes
-    setTimeout(hideLoader, 3000); // Hides the loader after 3 seconds (simulating content loading)
+    setTimeout(hideLoader, 9000); // Hides the loader after 9 seconds (simulating content loading)
     showLoader(); // Shows the loader initially
   });
